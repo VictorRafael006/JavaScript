@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="tempo.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form class="was-validated">
+            <div class="form-group">
+                <input type="radio" name="converter" id="CtoF" required>Celsius para Fahrenheit <br>
+                <div>Converter valor :</div>
+                <input id="num" type="number"> 
+                <input class="btn btn-dark" type="button" value="Calcula" onclick="main()"><br>
+                Resposta: <div id="resposta" style='display:inline'></div>
+            </div>
+        </form>
+</div>
+</body>
+</html>
